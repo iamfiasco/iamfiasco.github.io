@@ -3,6 +3,10 @@ layout: post
 title: Hello Hackathon
 ---
 
+Competitions are so cool you get to learn a lot of things from people you are competing with. In these tough moments you comprehend
+and transcend you limits. The best thing about them are that it has limited times and often you find yourself competing with 
+Time itself.
+The next time you encounter a competion or hackathon do step forward and let the adrenaline take over  
 # Prologue
 
 Our team participated in Smart India Hackathon 2018 (Ministry of Road Transport and Highways). It was weird that our team's name 
