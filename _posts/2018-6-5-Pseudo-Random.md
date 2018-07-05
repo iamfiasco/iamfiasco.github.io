@@ -7,7 +7,7 @@ messages. In game developement we need random numbers to create enemies at rando
 to get a random number between [1,6]. 1 and 6 are included , its a closed interval. With computers you have the ability of generating
 really long numbers. 
 This post is not about the importance of random numbers ! In order to know more about random numbers visit this 
-[A Breif history of Random Numbers](https://medium.freecodecamp.org/a-brief-history-of-random-numbers-9498737f5b6c).
+[A Brief history of Random Numbers](https://medium.freecodecamp.org/a-brief-history-of-random-numbers-9498737f5b6c).
 
 In data science we need numbers which are random but upon every execution of the script generates the same number. 
 I know the previous line is hard to digest but the following code will make this clear. 
