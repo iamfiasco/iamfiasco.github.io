@@ -7,7 +7,7 @@ Competitions are so cool you get to learn a lot of things from people you are co
 and transcend you limits. The best thing about them are that it has limited times and often you find yourself competing with 
 Time itself.
 The next time you encounter a competion or hackathon do step forward and let the adrenaline take over  
-# Prologue
+## Prologue
 
 Our team participated in Smart India Hackathon 2018 (Ministry of Road Transport and Highways). It was weird that our team's name 
 was AlgoGeeks. We bagged the 9th position in Smart India Hackathon 2018 Nagpur Finals, so yeah we did a great job. 
