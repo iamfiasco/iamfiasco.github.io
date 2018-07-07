@@ -2,7 +2,6 @@
 layout: post
 title: Delicate touch of web templating !
 ---
-### Prologue
 
 During my school days I used to wonder how does facebook generate pages for every user, posts, chatroom and etc. At that time I knew that nobody is dumb enough to manually write html pages for every users,post and etc. I thought these dynamic content was resultant of pure string concatenation. My thoughts were as follows.
 
