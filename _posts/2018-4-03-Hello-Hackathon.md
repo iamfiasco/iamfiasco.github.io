@@ -98,7 +98,7 @@ And finally here's the HTML code for the form
 </html>
 ```
 
-Initally my intention was to write the complete walkthrough of project in one blog but I gave up on that because this part of the blog deals with the APIs. In the next section we will
+Initally my intention was to write the complete walkthrough of project in one blog but I gave up on that because the explanations of the code was too damn length! This part of the blog deals with the APIs. In the next section we will
 deal with the car detections and in part 3 we will deal with the mighty Image Processing section which will need a lot of explanation.
 
 Hope you enjoyed the post.
