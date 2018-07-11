@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello Hackathon Part 2
+title: Hello There !
 ---
 
 During the Hackathon Finals the Chief Guest was Mr. Nitin Jairam Gadkari. I'm have never been a fan of a politician but Mr. Gadkari's Inauguration speech
@@ -109,6 +109,8 @@ cv2.imwrite("output.jpg",color)
 ```
 
 <img src="https://iamfiasco.github.io/images/sih2018-2/output.jpg" style="width: 500px">
+
+> This is my team which participated in Smart India Hackathon 2018. This was clicked in Shri Ramdeobaba College of Management and Engineering Nagpur during SIH 2018 onsite Finals.
 
 Earlier I told about the demerits of the haar classifier. Well the demerit is it doesnt handle outliers effectively. In the above case the person standing to the left is not looking to the camera straight. He is looking in a oblique manner so the classifier doesnt detect him. Its a very simple algorithm and still finds its use in smartphone camera app. Even some vendors take a step forward
 and tell the age of the person (in Xiaomi's Mi ROMs) which in my opinion is complete fiasco. 
