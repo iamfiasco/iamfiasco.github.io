@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello There !
+title: Hello Hackathon Part 2
 ---
 
 During the Hackathon Finals the Chief Guest was Mr. Nitin Jairam Gadkari. I'm have never been a fan of a politician but Mr. Gadkari's Inauguration speech
