@@ -22,7 +22,7 @@ and white segments. We calculate the weighted sum of the overlap (The haar featu
 
 If we take a look at a face of a person you'll see many sections of face, humans are good at segmenting and recognizing entities in an image. It takes a lot of time and effort for designing a facial recognition algorithm but humans do it with much ease. All sciences are about witnessing the actions and behavior of nature and to re-enact them to create feasable actions. When we look at a face we see the most important features the eyes, the nose and the mouth. These may described as edges. An edge in computer vision is an abrupt change in  intensity values in the neighborhood of a particular section. If you are not sure about the edge thing. Think of them as changes in colors in an image. Colors intensity can be used to segment entities in an image. There's a problem with this however which we will deal later in this post.
 
-<img src="https://iamfiasco.github.io/images/sih2018-2/haar_cascade.png" style="width: 400px">
+<img src="https://iamfiasco.github.io/images/sih2018-2/haar_cascade.png">
 
 > Haar Features
 
@@ -108,7 +108,7 @@ for (x,y,w,h) in faces:
 cv2.imwrite("output.jpg",color)
 ```
 
-<img src="https://iamfiasco.github.io/images/sih2018-2/output.jpg" style="width: 500px">
+<img src="https://iamfiasco.github.io/images/sih2018-2/output.jpg">
 
 > This is my team which participated in Smart India Hackathon 2018. This was clicked in Shri Ramdeobaba College of Management and Engineering Nagpur during SIH 2018 onsite Finals.
 
