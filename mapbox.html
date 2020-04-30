@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mapbox Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script>
+        window.onload = function(){
+            var app = new Vue({
+                el: "#root",
+                data: {
+                    location: "jamshedpur",
+                    results: []
+                },
+                watch: {
+                    location: async function(){
+                        var secret = "pk.eyJ1IjoiaWFtZmlhc2NvIiwiYSI6ImNrOWZiankzdjA5d2kzbWp3NGNzNmIwaHAifQ.E2UwYdvpjc6yNoCmBjfTaQ"
+                        var base = `http://api.mapbox.com/geocoding/v5/mapbox.places/${this.location}.json?access_token=${secret}`
+                        var res = await fetch(base)
+                        var res = await res.json()
+                        this.results = res["features"].map(e => e["text"])
+                    }
+                }                
+            })            
+        }
+    </script>
+</head>
+<body>
+    <div id="root">
+        <input v-model="location" placeholder="jamshedpur">
+        <p>{{ location }}</p>
+        <ul>
+            <li v-for="item in results">
+                {{ item }}
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>
